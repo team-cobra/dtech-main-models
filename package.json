@@ -1,0 +1,30 @@
+{
+  "name": "dtech-main-models",
+  "version": "0.0.1",
+  "description": "Models für dTech Main ",
+  "main": "dist/src/index.js",
+  "types": "dist/src/index.d.ts",
+  "files": [
+    "dist/src/**/*"
+  ],
+  "scripts": {
+    "build": "tsc --skipLibCheck",
+    "test": "mocha --exit",
+    "test-ci": "nyc -a mocha --recursive",
+    "prepare": "npm run build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/team-cobra/dtech-main-models.git"
+  },
+  "author": "Dataport",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/team-cobra/dtech-main-models/issues"
+  },
+  "homepage": "https://github.com/team-cobra/dtech-main-models#readme",
+  "devDependencies": {
+    "tsc": "^1.20150623.0",
+    "typescript": "^3.8.3"
+  }
+}
