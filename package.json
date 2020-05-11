@@ -4,6 +4,7 @@
   "description": "Models für dTech Main ",
   "main": "dist/src/index.js",
   "types": "dist/src/index.d.ts",
+  "publishConfig": { "registry": "https://npm.pkg.github.com/" },
   "files": [
     "dist/src/**/*"
   ],
