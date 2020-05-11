@@ -1,6 +1,6 @@
 {
   "name": "@team-cobra/dtech-main-models",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "Models für dTech Main ",
   "main": "dist/src/index.js",
   "types": "dist/src/index.d.ts",
