@@ -1,4 +1,4 @@
 export interface Module {
-    identifier: string;
-    displayName: string;
+    identifier?: string;
+    displayName?: string;
 }
