@@ -1,10 +1,12 @@
 {
   "name": "@team-cobra/dtech-main-models",
-  "version": "0.0.5",
+  "version": "0.0.6",
   "description": "Models für dTech Main ",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
-  "publishConfig": { "registry": "https://npm.pkg.github.com/" },
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com/"
+  },
   "files": [
     "dist/**/*"
   ],
@@ -27,5 +29,8 @@
   "devDependencies": {
     "tsc": "^1.20150623.0",
     "typescript": "^3.8.3"
+  },
+  "dependencies": {
+    "class-validator": "^0.12.2"
   }
 }
