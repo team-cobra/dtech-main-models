@@ -7,4 +7,6 @@ export class Module {
 
     @Length(3, 30)
     displayName: string;
+
+    apiPath: string;
 }
