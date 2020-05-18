@@ -1,7 +1,7 @@
 {
-  "name": "@team-cobra/dtech-main-models",
+  "name": "@team-cobra/hannah-main-models",
   "version": "0.0.9",
-  "description": "Models für dTech Main ",
+  "description": "Models für Hannah Main ",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
   "publishConfig": {
@@ -18,14 +18,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/team-cobra/dtech-main-models.git"
+    "url": "git+https://github.com/team-cobra/hannah-main-models.git"
   },
   "author": "Dataport",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/team-cobra/dtech-main-models/issues"
+    "url": "https://github.com/team-cobra/hannah-main-models/issues"
   },
-  "homepage": "https://github.com/team-cobra/dtech-main-models#readme",
+  "homepage": "https://github.com/team-cobra/hannah-main-models#readme",
   "devDependencies": {
     "tsc": "^1.20150623.0",
     "typescript": "^3.8.3"
